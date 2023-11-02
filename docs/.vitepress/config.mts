@@ -6,38 +6,46 @@ export default defineConfig({
   lang: 'zh-CN',
   title: "zhishuchen",
   description: "A VitePress Site",
+  head: [['link', { rel: 'icon', href: '/img/tree.ico' }]],
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
       { text: 'JAVA', link: '/JAVA/Foundations/foundations' },
-      { text: 'DataBase', link: '/' },
-      { text: 'Spring', link: '/' },
-      { text: 'Project', link: '/' },
-      { text: 'Tools', link: '/' },
+      { text: 'DataBase', link: '/DataBase/MySQL/MySQL' },
+      { text: 'Spring', link: '/Spring/Spring/spring' },
+      { text: 'Project', link: '/Project/one' },
+      { text: 'Tools', link: '/git' },
       { text: 'About', link: '/about' },
       { text: 'Examples', link: '/markdown-examples' },
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      },
-      {
-        text: 'JAVA',
-        items: [
-          { text: 'Foundations', link: '/foundations' },
-          { text: 'Advanced', link: '/advanced' }
-        ]
-      }
-    ],
+    sidebar: {
+      "/Examples": [
+        {
+          text: 'Examples',
+          items: [
+            { text: 'Markdown Examples', link: '/markdown-examples' },
+            { text: 'Runtime API Examples', link: '/api-examples' }
+          ]
+        },
+
+      ],
+      "/JAVA": [
+        {
+          text: 'JAVA',
+          items: [
+            { text: 'Foundations', link: '/JAVA/Foundations/foundations' },
+            { text: 'Advanced', link: '/JAVA/Advanced/advanced' }
+          ]
+        }
+      ]
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/zhishuchen' }
     ]
   }
+
 })
