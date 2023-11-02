@@ -6,7 +6,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: "zhishuchen",
   description: "A VitePress Site",
-  head: [['link', { rel: 'icon', href: '/img/tree.ico' }]],
+  head: [['link', { rel: 'icon', href: '/MyBlog/img/tree.ico' }]],
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
