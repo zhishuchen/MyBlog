@@ -6,7 +6,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: "zhishuchen",
   description: "A VitePress Site",
-  head: [['link', { rel: 'icon', href: '/MyBlog/img/tree.ico' }]],
+  head: [['link', { rel: 'icon', href: '/MyBlog/tree.ico' }]],
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -16,7 +16,7 @@ export default defineConfig({
       { text: 'DataBase', link: '/DataBase/MySQL/MySQL' },
       { text: 'Spring', link: '/Spring/Spring/spring' },
       { text: 'Project', link: '/Project/one' },
-      { text: 'Tools', link: '/git' },
+      { text: 'Tools', link: '/Tools/git' },
       { text: 'About', link: '/about' },
       { text: 'Examples', link: '/markdown-examples' },
     ],
