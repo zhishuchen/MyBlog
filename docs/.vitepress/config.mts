@@ -3,13 +3,19 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base:"/MyBlog/",
-  title: "My Awesome Project",
+  lang: 'zh-CN',
+  title: "zhishuchen",
   description: "A VitePress Site",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'JAVA', link: '/' },
+      { text: 'DataBase', link: '/' },
+      { text: 'Spring', link: '/' },
+      { text: 'Project', link: '/' },
+      { text: 'Tools', link: '/' },
+      { text: 'About', link: '/markdown-examples' }
     ],
 
     sidebar: [
