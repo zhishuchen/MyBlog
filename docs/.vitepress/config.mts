@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: 'zh-CN',
   base: "/MyBlog/",
   title: "zhishuchen",
   description: "zhishuchen-Blog",
