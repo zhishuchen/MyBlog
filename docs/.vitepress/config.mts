@@ -93,7 +93,8 @@ export default defineConfig({
           text: 'JAVA',
           items: [
             { text: 'Foundations', link: '/JAVA/Foundations/foundations' },
-            { text: 'Advanced', link: '/JAVA/Advanced/advanced' }
+            { text: 'Advanced', link: '/JAVA/Advanced/advanced' },
+            { text: '其他知识', link: '/JAVA/Advanced/其他知识' }
           ]
         }
       ]
